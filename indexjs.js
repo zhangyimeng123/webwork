@@ -26,6 +26,7 @@ function animate(obj,json,callback){
 			}
 			if(json[attr] !== cur){
 				isStop = false;
+				isStop = false;
 			}
 		}
 		if(isStop){
@@ -47,7 +48,7 @@ function rowrow(obj){
 			}
 			now=now-29;
 			var mrrchild=obj.children;
-			var xx=document.createTextNode("[公告] 帮购及VIP服务调整"+x);
+			var xx=document.createTextNode("[公告] 帮购及VIP服务调整哈哈哈哈哈哈"+x);
 			var li=document.createElement('li');
 			li.appendChild(xx);
 			obj.appendChild(li);
